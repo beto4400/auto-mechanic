@@ -196,7 +196,7 @@ export default function AutoFixPro() {
                   <Star key={j} style={{ width: '1rem', height: '1rem', fill: '#ffd700', color: '#ffd700' }} />
                 ))}
               </div>
-              <p style={{ marginBottom: '1rem', color: '#333' }}>"{testimonial.text}"</p>
+              <p style={{ marginBottom: '1rem', color: '#333' }}>&ldquo;{testimonial.text}&rdquo;</p>
               <p style={{ fontWeight: 600, color: '#c41e3a' }}>— {testimonial.name}</p>
             </div>
           ))}
